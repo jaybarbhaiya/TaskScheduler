@@ -1,0 +1,28 @@
+{
+  "name": "nodeMongo",
+  "version": "1.0.0",
+  "description": "Task Scheduler, a web application for scheduling tasks to members of the project",
+  "main": "Server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaybarbhaiya/TaskScheduler.git"
+  },
+  "keywords": [
+    "Node.js",
+    "mongoDb"
+  ],
+  "author": "Arun Vijayrahavan",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jaybarbhaiya/TaskScheduler.git/issues"
+  },
+  "homepage": "https://github.com/jaybarbhaiya/TaskScheduler.git",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.2"
+  }
+}
